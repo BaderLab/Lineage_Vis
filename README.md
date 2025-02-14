@@ -2,7 +2,10 @@
 simulated lineage history files
 
 headings:
+
 timestep -> simualtion steps at which the information was captured
+
+
 cellname ->  each cell has a unique name, this is important for single cell analysis. We can also track lineage by the name "1-1" parental name -> 1-1-1 or 1-1-2 for offspring
 cell_Cycle_Time -> cell cycle duration set for the timestep
 genome_state -> decribes the on (1) or off (0) state of genes in the system. it is describe as a string. each copy (ploiy) is separated by underscore _
